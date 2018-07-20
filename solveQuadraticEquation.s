@@ -18,7 +18,7 @@
 .text
 .globl __start
 __start:
-	# loaf float 0, float -1.0, float 4, float 2
+	# load float 0.0, float -1.0, float 4.0, float 2.0
 	l.d $f8, float0
 	l.d $f28, floatNegative
 	l.d $f30, float4
